@@ -1,6 +1,7 @@
-function Header() {
+function Header(props) {
+  console.log(props)
     return (
-      <h1>Dek was here</h1>
+      <h1>Dek was here, {props.name}, {props.color}</h1>
     )
 }
 
